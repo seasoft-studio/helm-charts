@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-26T02:44:06.038982012Z"
+    description: A Helm chart for Kubernetes
+    digest: 49ccee90ffb063ba7abd8bb565247c876e6eaf872044e365690ebf4354a6b630
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/seasoft-studio/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+  pms:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-06-26T02:44:06.12713061Z"
+    description: A Helm chart for Plex Media Server
+    digest: edfd2a9f1f9caaff61c62aa3fdbb40702d25065250fde587c71bd0f251757448
+    name: pms
+    type: application
+    urls:
+    - https://github.com/seasoft-studio/helm-charts/releases/download/pms-0.1.0/pms-0.1.0.tgz
+    version: 0.1.0
+  radarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-26T02:44:06.219470097Z"
+    description: A Helm chart for Kubernetes
+    digest: b363dd4342b81a51661385845ab644a1ec24d922fbb31b8d65c7a099c9e18ee8
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/seasoft-studio/helm-charts/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
+    version: 0.1.0
+  sabnzbd:
+  - apiVersion: v2
+    appVersion: 31.05.24
+    created: "2024-06-26T02:44:06.31128194Z"
+    description: A Helm chart for sabnzbd
+    digest: 47c30d5d75ad9e1a19f9df7727808e37d97c13154bcbf1aee084a9f526d143a4
+    name: sabnzbd
+    type: application
+    urls:
+    - https://github.com/seasoft-studio/helm-charts/releases/download/sabnzbd-0.1.0/sabnzbd-0.1.0.tgz
+    version: 0.1.0
+  sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-26T02:44:06.407471731Z"
+    description: A Helm chart for Kubernetes
+    digest: d83e3e17b33b65dfe842e44f4999a3a2e7b7a43eb96affddc9e8c38190329cd9
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/seasoft-studio/helm-charts/releases/download/sonarr-0.1.0/sonarr-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-26T02:44:06.407505464Z"
