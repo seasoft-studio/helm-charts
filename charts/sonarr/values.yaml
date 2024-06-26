@@ -41,7 +41,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8989
 
 ingress:
   enabled: false
@@ -116,9 +116,6 @@ extraEnv:
 extraVolumeMounts:
    - name: data
      mountPath: /data
-#   - name: incomplete-downloads
-#     mountPath: /incomplete-downloads
-
 
 # Optionally specify additional volumes for the pod.
 #extraVolumes: []
@@ -126,9 +123,3 @@ extraVolumes:
    - hostPath:
        path: /mnt/media
        name: data
-#   - hostPath:
-#       path: /mnt/downloads/incomplete
-#     name: incomplete-downloads
-#     emptyDir: {}
-
-
